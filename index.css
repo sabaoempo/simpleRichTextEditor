@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+i{
+    color: #585858;
+}
+
+button:hover{
+    background-color: #c5c2c2;
+    border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+.editor-properties-container{
+    border: 0.5px solid #ced4da;
+    border-bottom: 0px;
+    border-radius: .25rem .25rem 0 0;
+}
+
+.textarea{
+    height: 300px;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.form-control:focus, .btn:focus{
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+.form-control:focus{
+    border-color: #ced4da !important;
+}
